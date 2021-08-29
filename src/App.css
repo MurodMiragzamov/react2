@@ -1,0 +1,50 @@
+*{ box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  list-style: none;
+}
+
+.container{
+  width: 1250px;
+  margin: 0 auto;
+  padding-right: 5px;
+  padding-left: 5px;
+}
+.modal{
+ background: red;
+}
+#root{
+  width: 100%;
+  height: 100%;
+
+}
+.App{
+  position: relative;
+  
+}
+.div-modal{
+  position: absolute;
+  top: 0;
+  display: none;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: dimgray;
+  
+  width: 100%;
+  height: 100vh;
+
+}
+.modal-active{
+  display: block;
+}
+.m-modal{
+width: 300px;
+margin: 0 auto;
+text-align: center;
+}
+
+.btn-modal{
+padding: 10px;
+}
